@@ -209,6 +209,7 @@ h1, h2, h3, p, a{
 .course_item .thumb{
   width: 200px;
   aspect-ratio: 16 / 9;
+  cursor:pointer;
 }
 
 
@@ -243,6 +244,20 @@ h1, h2, h3, p, a{
   align-items: center;
 }
 
+.close-modal-btn {
+  display: block;
+  background: var(--primary-color);
+  border-radius: var(--border-radius);
+  color: var(--bg-color);
+  text-align: center;
+  font-size: var(--font-copy);
+  margin-top: 18px;
+  justify-content: center;
+  cursor: pointer;
+  align-self: normal;
+  display: flex;
+  align-items: center;
+}
 ._loading_overlay_content {
   top: 45%;
   left: 55%;
