@@ -89,13 +89,13 @@ const CourseUpload = () => {
             onChange={(e) => setDescription(e.target.value)}
           />
         </div>
-        <a
+        <button
           className="upload-btn"
           id="upload"
           onClick={onUpload}
         >
           +
-        </a>
+        </button>
       </div>
     </>
   );
