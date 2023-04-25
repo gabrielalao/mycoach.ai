@@ -1,6 +1,7 @@
 import React from "react";
 import styled, { css } from "styled-components";
 import LoadingOverlay from "react-loading-overlay";
+
 import useCouseStore from "../store/useCourseStore";
 
 const DarkBackground = styled.div`
