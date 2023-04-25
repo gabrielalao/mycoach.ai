@@ -23,9 +23,11 @@ const CourseUpload = () => {
   }
 
   const onUpload = () => {
-    if (!videoFile) return;
     if (!title || !description) {
       return alert("Please fill the title and description.");
+    }
+    if (!videoFile) {
+      return alert("Please upload video file.");
     }
 
     try {
